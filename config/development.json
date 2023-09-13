@@ -1,0 +1,7 @@
+{
+  "dbConfig": {
+    "url": "mongodb://127.0.0.1:27017/final_project"
+  },
+  "jwt": "b8975dtufygb=78tgyh",
+  "file": "dev"
+}

@@ -1,0 +1,6 @@
+{
+    "dbConfig": {
+    "url": "mongodb+srv://admin:Aa123456!@cluster0.vbhsh8m.mongodb.net/bizcarddb"
+  },
+  "file": "prod"
+}

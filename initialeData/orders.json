@@ -1,0 +1,48 @@
+[
+  {
+    "name": {
+      "name": "orders 1",
+      "lastName": "orders 1111"
+    },
+
+    "phone": "0505555555",
+    "email": "orders1@gmail.com",
+    "address": {
+      "city": "Ashkeluna",
+      "street": "nof ha hof",
+      "houseNumber": 255
+    },
+    "isBusiness": true,
+    "takeAway": true
+  },
+
+  {
+    "name": {
+      "name": "orders 2",
+      "lastName": "orders 2222"
+    },
+    "phone": "0505555555",
+    "email": "orders2@gmail.com",
+    "address": {
+      "city": "Ashkeluna",
+      "street": "nof ha hof",
+      "houseNumber": 255
+    },
+    "isBusiness": false
+  },
+
+  {
+    "name": {
+      "name": "orders 3",
+      "lastName": "orders 3333"
+    },
+    "phone": "0505555555",
+    "email": "orders3@gmail.com",
+    "address": {
+      "city": "Ashkeluna",
+      "street": "nof ha hof",
+      "houseNumber": 255
+    },
+    "isBusiness": true
+  }
+]

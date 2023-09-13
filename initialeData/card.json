@@ -1,0 +1,275 @@
+[
+  {
+    "title": "home bread",
+    "description": "The homemade bread is fresh and warm",
+    "imageUrl": "../images/breads1.jpg",
+    "price": "18",
+    "category": "Breads"
+  },
+  {
+    "title": "Meat focaccia",
+    "description": "Meat focaccia sprinkled with fresh tahini",
+    "imageUrl": "../images/breads.jpg",
+    "price": "30",
+    "category": "Breads"
+  },
+  {
+    "title": "Cabbage salad",
+    "description": "Cabbage salad with sesame and green onion",
+    "imageUrl": "../images/Salads1.jpg",
+    "price": "47",
+    "category": "Salads"
+  },
+  {
+    "title": "Rich vegetable salad",
+    "description": "Rich vegetable salad with citrus dressing and parsley garnish",
+    "imageUrl": "../images/Salads2.jpg",
+    "price": "47",
+    "category": "Salads"
+  },
+  {
+    "title": "Citrus salad",
+    "description": "Citrus salad with cabbage, green onions and cashews",
+    "imageUrl": "../images/Salads3.jpg",
+    "price": "35",
+    "category": "Salads"
+  },
+  {
+    "title": "House salad",
+    "description": "The house salad on a bed of crunch bread and garlic sauce",
+    "imageUrl": "../images/Salads4.jpg",
+    "price": "38",
+    "category": "Salads"
+  },
+  {
+    "title": "Lettuce salad",
+    "description": "Lettuce salad with sweet potato and beet strips sprinkled with pecans and tofu cubes",
+    "imageUrl": "../images/Salads5.jpg",
+    "price": "45",
+    "category": "Salads"
+  },
+  {
+    "title": "Tofu salad",
+    "description": "Vegetable salad with tofu cubes",
+    "imageUrl": "../images/Salads6.jpg",
+    "price": "55",
+    "category": "Salads"
+  },
+  {
+    "title": "Hot salad",
+    "description": "Hot noodle salad with olives and mushrooms",
+    "imageUrl": "../images/Salads7.jpg",
+    "price": "45",
+    "category": "Salads"
+  },
+  {
+    "title": "Batata salad",
+    "description": "Vegetable salad with sweet potato crunch cubes",
+    "imageUrl": "../images/Salads8.jpg",
+    "price": "47",
+    "category": "Salads"
+  },
+  {
+    "title": "tahini salad",
+    "description": "Tahini salad drizzled with olive oil",
+    "imageUrl": "../images/Salads9.jpg",
+    "price": "30",
+    "category": "Salads"
+  },
+  {
+    "title": "Batata soup",
+    "description": "Batata soup with the addition of green onions",
+    "imageUrl": "../images/soups2.jpg",
+    "price": "55",
+    "category": "Soups"
+  },
+  {
+    "title": "Orange soup",
+    "description": "Orange soup with croutons and nuts",
+    "imageUrl": "../images/soups3.jpg",
+    "price": "50",
+    "category": "Soups"
+  },
+  {
+    "title": "mushroom soup",
+    "description": "Mushroom soup with grated kohlrabi",
+    "imageUrl": "../images/soups4.jpg",
+    "price": "40",
+    "category": "Soups"
+  },
+  {
+    "title": "Onion and garlic soup",
+    "description": "Onion and garlic soup garnished with green leaves",
+    "imageUrl": "../images/soups6.jpg",
+    "price": "45",
+    "category": "Soups"
+  },
+  {
+    "title": "Mashed potatoes",
+    "description": "Mashed potatoes garnished with fried onions",
+    "imageUrl": "../images/Extras1.jpg",
+    "price": "50",
+    "category": "Extras"
+  },
+  {
+    "title": "Rice with peas",
+    "description": "Rice with peas and boiled potato slices",
+    "imageUrl": "../images/Extras2.jpg",
+    "price": "55",
+    "category": "Extras"
+  },
+  {
+    "title": "Rice with lentils",
+    "description": "Rice with lentils and fried potato slices on top",
+    "imageUrl": "../images/Extras3.jpg",
+    "price": "60",
+    "category": "Extras"
+  },
+  {
+    "title": "Antipasto",
+    "description": "Antipasti tomatoes, peppers, onions and roasted zucchini",
+    "imageUrl": "../images/Extras4.jpg",
+    "price": "70",
+    "category": "Extras"
+  },
+  {
+    "title": "Eggplant and cucumber slices",
+    "description": "Eggplant and cucumber slices fried in breadcrumbs and thousand island sauce",
+    "imageUrl": "../images/Extras5.jpg",
+    "price": "55",
+    "category": "Extras"
+  },
+  {
+    "title": "Eggplant strips",
+    "description": "Eggplant strips with mashed potato and onion balls and pesto dip",
+    "imageUrl": "../images/Extras6.jpg",
+    "price": "55",
+    "category": "Extras"
+  },
+  {
+    "title": "Home controller",
+    "description": "The house beef in a juicy sauce",
+    "imageUrl": "../images/Main_dishes1.jpg",
+    "price": "150",
+    "category": "Main dishes"
+  },
+  {
+    "title": "Spicy chicken skewers",
+    "description": "Spicy chicken skewers on a bed of cabbage and carrots",
+    "imageUrl": "../images/Main_dishes2.jpg",
+    "price": "120",
+    "category": "Main dishes"
+  },
+  {
+    "title": "Chicken breast stuffed with nuts",
+    "description": "Chicken breast stuffed with nuts on a bed of pesto sauce garnished with roasted peppers",
+    "imageUrl": "../images/Main_dishes3.jpg",
+    "price": "140",
+    "category": "Main dishes"
+  },
+  {
+    "title": "Cigar leaves",
+    "description": "Cigar leaves stuffed with chicken breast with the house sauces",
+    "imageUrl": "../images/Main_dishes4.jpg",
+    "price": "110",
+    "category": "Main dishes"
+  },
+  {
+    "title": "Ground liver",
+    "description": "Ground liver on a bed of crunch bread and sprinkled with fried onions",
+    "imageUrl": "../images/Main_dishes6.jpg",
+    "price": "125",
+    "category": "Main dishes"
+  },
+  {
+    "title": "Mushroom stuffed with meat",
+    "description": "Mushroom stuffed with meat with crunch brisket fingers on a bed of vegetables",
+    "imageUrl": "../images/Main_dishes7.jpg",
+    "price": "170",
+    "category": "Main dishes"
+  },
+  {
+    "title": "Beef slices",
+    "description": "Beef slices on a bed of fresh vegetables and tofu cubes",
+    "imageUrl": "../images/Main_dishes8.jpg",
+    "price": "150",
+    "category": "Main dishes"
+  },
+  {
+    "title": "Meat lasagna",
+    "description": "Meat lasagna filled with a variety of meats",
+    "imageUrl": "../images/Main_dishes9.jpg",
+    "price": "155",
+    "category": "Main dishes"
+  },
+  {
+    "title": "Chopped liver",
+    "description": "Chopped liver garnished with onion and matzah",
+    "imageUrl": "../images/Main_dishes10.jpg",
+    "price": "140",
+    "category": "Main dishes"
+  },
+  {
+    "title": "Chicken patty",
+    "description": "Chicken patty and parsley on a cinnamon stick",
+    "imageUrl": "../images/Main_dishes11.jpg",
+    "price": "135",
+    "category": "Main dishes"
+  },
+  {
+    "title": "Mini hamburger",
+    "description": "Hamburger bun with vegetables plus tahini and sahug",
+    "imageUrl": "../images/Main_dishes12.jpg",
+    "price": "150",
+    "category": "Main dishes"
+  },
+  {
+    "title": "Sweet puff",
+    "description": "A sweet puff on a bed of berries and whipped cream",
+    "imageUrl": "../images/desserts1.jpg",
+    "price": "30",
+    "category": "Desserts"
+  },
+  {
+    "title": "Halva ice cream",
+    "description": "Halva ice cream rich in hazelnuts",
+    "imageUrl": "../images/desserts2.jpg",
+    "price": "25",
+    "category": "Desserts"
+  },
+  {
+    "title": "coconut cake",
+    "description": "A coconut cake rich in quality dark chocolate sprinkled with foil",
+    "imageUrl": "../images/desserts3.jpg",
+    "price": "35",
+    "category": "Desserts"
+  },
+  {
+    "title": "House wine",
+    "description": "Rich white wine",
+    "imageUrl": "../images/drinking1.jpg",
+    "price": "70",
+    "category": "Drinking"
+  },
+  {
+    "title": "different beers",
+    "description": "A rich selection of beers",
+    "imageUrl": "../images/drinking2.jpg",
+    "price": "40",
+    "category": "Drinking"
+  },
+  {
+    "title": "Her voice is cold",
+    "description": "Cold coke with ice cubes",
+    "imageUrl": "../images/drinking3.jpg",
+    "price": "15",
+    "category": "Drinking"
+  },
+  {
+    "title": "Citrus juice",
+    "description": "Cold citrus juice with a slice of fruit and ice cubes",
+    "imageUrl": "../images/drinking4.jpg",
+    "price": "15",
+    "category": "Drinking"
+  }
+]

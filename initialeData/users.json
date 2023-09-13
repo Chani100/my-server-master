@@ -1,0 +1,42 @@
+[
+  {
+    "firstName": "user1",
+    "lastName": "One",
+    "phone": "0500000000",
+    "email": "One@gmail.com",
+    "password": "Aa123456!",
+    "city": "Ashkeluna",
+    "street": "nof ha hof",
+    "houseNumber": 255,
+    "recommendations":"Delicious food and excellent service",
+    "isAdmin": false,
+    "isBusiness": false
+  },
+
+  {
+    "firstName": "user2",
+    "lastName": "two",
+    "phone": "0500000000",
+    "email": "two@gmail.com",
+    "password": "Aa123456!",
+    "city": "Ashkeluna",
+    "street": "nof ha hof",
+    "houseNumber": 255,
+    "recommendations": "Great restaurant",
+    "isAdmin": false,
+    "isBusiness": true
+  },
+  {
+    "firstName": "user3",
+    "lastName": "three",
+    "phone": "0500000000",
+    "email": "three@gmail.com",
+    "password": "Aa123456!",
+    "city": "Ashkeluna",
+    "street": "nof ha hof",
+    "houseNumber": 255,
+    "recommendations": "Kind and fast service",
+    "isBusiness": true,
+    "isAdmin": true
+  }
+]
