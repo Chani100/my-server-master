@@ -44,7 +44,7 @@ router.get(
     try {
       const allUsers = await usersServiceModel.getAllUsers(req.id, {
         password: 0,
-        _id: 0,
+       
       });
       res.json(allUsers);
     } catch (err) {
@@ -105,19 +105,19 @@ router.put(
 router.patch(
   "/:id",
   authmw,
-  permissionsUsersMiddleware(false, true),
+  permissionsUsersMiddleware(true, true),
   async (req, res) => {
     try {
-      await registerUserValidation(req.body);
+     /*  await registerUserValidation(req.body); */
       await validateIdSchema(req.params.id);
-      const Business = req.params.id;
-      let userData = await usersServiceModel.getuserById(Business);
-      if (userData.isBusiness === true) {
-        userData.isBusiness = false;
+      const Admin = req.params.id;
+      let userData = await usersServiceModel.getuserById(Admin);
+      if (userData.isAdmin === true) {
+        userData.isAdmin = false;
         userData = await userData.save();
         res.json({ msg: "Editing was done false successfully" });
       } else {
-        userData.isBusiness = true;
+        userData.isAdmin = true;
         userData = await userData.save();
         res.json({ msg: "Editing was done true successfully" });
       }
@@ -133,13 +133,14 @@ router.patch(
 router.delete(
   "/:id",
   authmw,
-  permissionsUsersMiddleware(true, true),
+  permissionsUsersMiddleware(true, false),
   async (req, res) => {
     try {
       await validateIdSchema(req.params.id);
       const DeleteUser = await usersServiceModel.DeleteUser(req.params.id);
       res.json(DeleteUser);
     } catch (err) {
+
       res.status(400).json(err);
     }
   }

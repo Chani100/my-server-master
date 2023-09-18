@@ -38,13 +38,16 @@ const schema = new mongoose.Schema({
       /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/
     ),
   },
-  imageUrl: {
+   imageUrl: {
     type: String,
-    match: RegExp(
-      /(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})/
-    ),
-    trim: true,
-
+    validate: {
+      validator: function (value) {
+        const urlRegex = /^(https?:\/\/)?([\w-]+\.)+[\w-]+(\/[\w-.\/?%&=]*)?$/;
+        const filePathRegex = /^(\.\.\/)?[\w-\/.]+$/;
+        return urlRegex.test(value) || filePathRegex.test(value);
+      }},
+      message: "Invalid address format",
+      trim: true,
     default:
       "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
   },
